@@ -1,0 +1,88 @@
+.ulMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size:25px;
+}
+
+.liMenu {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.message {
+  text-align: center;
+  height:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.board {
+  height:300px;
+  width:300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.divButton {
+  height:105px;
+  width:105px;
+}
+
+.mapField {
+  height:100px;
+  width:100px;
+  font-size:75px;
+  color: #000000;
+}
+
+.btnNewGame {
+  height:50px;
+  width:200px;
+  font-size:25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+:disabled {background-color:silver; color:dimgray}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: yellow;
+}

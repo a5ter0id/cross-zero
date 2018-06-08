@@ -1,0 +1,20 @@
+doctype html
+html
+    meta(name="yandex-verification" content="040dd2f03f1721f8")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/jquery/dist/jquery.js")
+    script(src="/socket.io-client/dist/socket.io.js")
+body
+
+  ul(class="ulMenu")
+    li(class="liMenu")
+      a(href="index.html") Играть
+    li(class="liMenu")
+      a(href="history.html", id="getHistory") История игр
+    li(class="liMenu")
+      a(href="about.html") О программе
+
+  head
+    title Игра крестики нолики
+
+    block content

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  script(src="/userscripts/game.js")
+
+  br
+  br
+  h1(class="message", id="label") Ваш ход
+
+  div(id="future")
+    div(class="board", id="gameMap")
+    br
+    br
+    div(id="gameControl")
